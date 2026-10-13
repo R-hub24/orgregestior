@@ -525,6 +525,11 @@
                     </div>
 
                     <div class="form-group">
+                        <label>ناوی کۆمیتە:</label>
+                        <input type="text" name="committeeName" required placeholder="ناوی کۆمیتە بنووسە...">
+                    </div>
+
+                    <div class="form-group">
                         <label>ژمارەی کارتی دەنگدان:</label>
                         <input type="text" name="voterCardNumber" required placeholder="ژمارەی کارتی دەنگدان بنووسە...">
                     </div>
@@ -813,6 +818,7 @@
                     <div class="id-body">
                         <p><strong>ناوی سیانی:</strong> ${item.fullName || '-'}</p>
                         <p><strong>تەلەفۆن:</strong> ${item.phone || '-'}</p>
+                        <p><strong>ناوی کۆمیتە:</strong> ${item.committeeName || '-'}</p>
                         <p><strong>ژمارەی کارتی دەنگدان:</strong> ${item.voterCardNumber || '-'}</p>
                         <p><strong>بنکەی دەنگدان:</strong> ${item.voterStation || '-'}</p>
                         <p><strong>جۆری ئەندامی:</strong> ${item.memberType || '-'}</p>
